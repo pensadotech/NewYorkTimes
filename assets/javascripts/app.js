@@ -22,15 +22,3 @@ $('#submit').on('click', function () {
 
 })
 
-// }).done(function (result) {
-//     $('#submit').on('click', function () {
-
-
-//     })
-
-
-
-//     //console.log(result.response.docs[0].headline.main);
-// }).fail(function (err) {
-//     throw err;
-// });

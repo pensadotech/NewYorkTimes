@@ -14,7 +14,7 @@ $('#submit').on('click', function () {
     $.get(queryURL)
     .then(function (request) {
     request.response.docs.forEach(doc => {
-            $('#headlines').append(`
+            $('#results').append(`
             <h4>${doc.headline.main}</h4>
             `)
         });

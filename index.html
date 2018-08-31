@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    here
+    <header>
+        <h1>📰 New York Times Search</h1>
+    </header>
+    <div class="searchcontainer">
+        <div class="searchheader"><h2>Search Parameters</h2>
+        </div>
+        <div class="searchform">
+            <form>
+                <label for="searchterm">Search Term:</label>
+                <input type="text" name="searchterm" id="term">
+                <label for="numberrecs">Number of Records to Retreive:</label>
+                <input type="text" name="numberrecs" id="numrecs">
+                <label for="startyear">Start Year (Optional):</label>
+                <input type="text" name="startyear" id="startyear">
+                <label for="endyear">End Year (Optional):</label>
+                <input type="text" name="endyear" id="endyear">
+                <button type="submit">🔍 Search</button>
+                <button type="reset">🗑️ Clear</button>
+            </form>
+        </div>
+        <div class="articlecontainer"></div>
+        <div class='articleheader'>
+            <h3>Top Articles</h3>
+        </div>
+        <div id="results"></div>
+    </div>
 </body>
+
 </html>

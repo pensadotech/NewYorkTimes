@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+header{
+    background-color: hsl(240, 100%, 25%);
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.searchcontainer{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid hsl(240, 100%, 95%);
+}
+
+.searchheader{
+    background-color:  hsl(240, 100%, 95%);
+}
+
+form{
+    padding: 5px
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.articlecontainer{
+    border: 1px solid hsl(240, 100%, 95%);
+    width: 70%;
+    margin: 0 auto;
+
+}
+.articleheader{
+    background-color:  hsl(240, 100%, 92%);
+}

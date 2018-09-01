@@ -1,54 +1,49 @@
-*{
-    box-sizing: border-box;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-}
-
-header{
-    background-color: hsl(240, 100%, 25%);
-    color: white;
-    width: 70%;
-    margin: 0 auto 1rem;
-    padding: 1em;
-    text-align: center;
-}
-
-h4{
+body {
+    /* Remove margins and padding around content */
     margin: 0;
+    padding: 0;
 }
 
-.searchcontainer{
-    width: 70%;
-    margin: 0 auto 1rem;
-    border: 1px solid hsl(240, 100%, 95%);
+header {
+    background-color: darkBlue;
 }
 
-.searchheader{
-    padding: .5rem;
-    background-color:  hsl(240, 100%, 95%);
+header .jumbotron {
+    color: white;
 }
 
-form{
-    padding: 1rem;
+.searchContainer { 
+    border: 2px solid lightgray;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
 }
 
-input{
-    display: block;
+.searchHeader, .resultHeader {
+    background-color: rgb(248, 244, 244);
     width: 100%;
-    margin-bottom: .5rem;
 }
-button{
-    margin: .5rem;
+
+.searchParms {
+    background-color: white;
+    width: 100%;
 }
-.articlecontainer{
-    border: 1px solid hsl(240, 100%, 95%);
-    width: 70%;
-    margin: 0 auto;
-    
+
+.resultsContainer {
+    border: 2px solid lightgray;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
 }
-.articleheader{
-    padding: .5rem;
-    background-color:  hsl(240, 100%, 92%);
+
+.resultHeader {
+    margin-bottom: 10px;
 }
-#results{
-    padding: 1rem;
+
+.article {
+    background-color: rgb(223, 241, 247);
+    padding: 5px 30px 5px 10px;
+    margin-bottom: 15px;
+}
+
+.articleTitle h5 {
+    padding-right: 20px;
 }
